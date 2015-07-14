@@ -1,0 +1,23 @@
+
+########## gammurc config ##########
+[gammu]
+device = com17:
+connection = at115200
+
+########## smsd config ##############
+[smsd]
+service = mysql
+PIN = 1234
+logfile = smsdlog
+debuglevel = 0
+commtimeout = 30
+sendtimeout = 30
+#jika lebih dari satu
+#phoneid = MyPhone1
+
+########## database config ##########
+#[database]
+user = root
+password = 
+pc = localhost
+database = smsg

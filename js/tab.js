@@ -1,0 +1,45 @@
+$(document).ready(function(){
+$("#skontak").hide();
+$("#kontak").on("mouseover",function(){
+    $("#skontak").show(1000);
+});
+$("#kontak").on("mouseout",function(){
+    $("#skontak").show();
+});
+$("#skontak").on("mouseover",function(){
+    $("#skontak").show();
+});
+$("#skontak").on("mouseleave",function(){
+    $("#skontak").hide(1000);
+});
+$("#suser").hide();
+$("#user").on("mouseover",function(){
+    $("#suser").show(1000);
+});
+$("#user").on("mouseout",function(){
+    $("#suser").show();
+});
+$("#suser").on("mouseover",function(){
+    $("#suser").show();
+});
+$("#suser").on("mouseleave",function(){
+    $("#suser").hide(1000);
+});
+$("#sdraf").hide();
+$("#draf").on("mouseover",function(){
+    $("#sdraf").show(1000);
+});
+$("#draf").on("mouseout",function(){
+    $("#sdraf").show();
+});
+$("#sdraf").on("mouseover",function(){
+    $("#sdraf").show();
+});
+$("#sdraf").on("mouseleave",function(){
+    $("#sdraf").hide(1000);
+});
+$("#sfold").hide();
+$("#fold").on("mouseover",function(){
+    $("#sfold").show('slow');
+});
+});

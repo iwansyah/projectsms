@@ -1,0 +1,219 @@
+/* 
+    Document   : style
+    Created on : Jul 31, 2014, 1:46:59 AM
+    Author     : iwansyahkun
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background:url(../images/background.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    font-family: "Trebuchet MS", sans-serif, arial;
+    /*font: normal Helvetica, Arial, sans-serif;
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;*/
+    font-weight: normal;
+}
+header, nav, section, aside, footer{
+    display:block;
+}
+a{
+    text-decoration: none;
+    color:#0134c5;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    text-decoration: none;
+}
+header{ 
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #0099cc;
+    height: 50px;
+    padding-top: 30px;
+}
+header span{
+    font-size: xx-large;
+    padding-left:10px;
+}
+legend{
+    display: block;
+    border: #999999 solid 1px;
+    padding:0 5px 0 5px;
+}
+fieldset{
+     border-bottom-left-radius: 10px;
+     border-top-right-radius: 10px;
+     margin-bottom: 10px;
+}
+.main{
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5px;
+}
+.navi{
+    text-align: center;
+    height:30px;
+    background-color: #33ADD6;
+    width: 100%;
+    margin-top:5px;
+    padding-top: 10px;
+    display: block;
+}
+.navi_left{
+    float:left;
+    padding-left:5px;
+}
+.navi_right{
+    float:right;
+    padding-right:5px;
+}
+.main aside{
+    margin-top: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    border: #002166 outset medium;
+    background-color: #33ADD6;
+}
+.main section{
+    margin-top: 5px;
+    padding: 5px;
+    border: #002166 outset medium;
+}
+.main ul{
+    list-style: none;
+    list-style-position: outside;
+    padding:0px;
+    margin:0px;
+    display:block;
+}
+.main legend{
+    color: #fff;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #0099cc;
+    height: auto;
+    width: 100%;
+}
+.cust{
+    font-family: "Trebuchet MS", sans-serif, arial;
+    width:100%;
+    border-collapse: collapse;
+}
+.cust td, .cust th{
+    border:1px solid #98bf21;
+    font-size: 1em;
+    padding:3px 7px 2px 7px;
+}
+.cust th{
+    background-color: #A7C942;
+    color:#ffffff;
+    font-size:1.1em;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-align: left;
+}
+.cust tr.alt td{
+    color:#000000;
+    background-color:#EAF2D3;
+}
+.cust ul{
+    font-family: "Trebuchet MS", sans-serif, arial;
+    font-size:1.1em;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+.cust li{
+    float:left;
+}
+.cust a{
+   padding:5px; 
+   color:white;
+   text-decoration: none;
+   text-align: center;
+}
+.cust a:hover{
+   text-align: center;
+   text-decoration: none;  
+}
+.cust a:visited{
+    text-decoration: none;
+}
+
+.cssmenu,
+.cssmenu ul,
+.cssmenu ul li,
+.cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cssmenu {
+  margin-top:5px;  
+  border-bottom: 3px solid #333333;
+  padding: 0 3px;
+  width: auto;
+  /*font-family: Helvetica, Arial, sans-serif;
+  background: #dddddd;*/
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.cssmenu:after,
+.cssmenu ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.cssmenu ul li {
+  display: inline-block;
+}
+.cssmenu.align-right ul li {
+  float: right;
+}
+.cssmenu.align-center ul {
+  text-align: center;
+}
+.cssmenu ul li a {
+  font-size: 15px;
+  padding: 13px;
+  text-decoration: none;
+  /*color: #0e83cd;*/
+  color:blue;
+}
+.cssmenu ul li:hover a,
+.cssmenu ul li a:hover,
+.cssmenu ul li.active a {
+  color: #333333;
+}
+@media all and (max-width: 640px) {
+  .cssmenu {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+  }
+  .cssmenu ul li,
+  .cssmenu.align-center,
+  .cssmenu.align-right {
+    display: block;
+  }
+}
+

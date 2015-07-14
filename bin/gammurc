@@ -1,0 +1,3 @@
+[gammu]
+device = com17:
+connection = at115200

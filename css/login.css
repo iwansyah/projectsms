@@ -1,0 +1,43 @@
+/* 
+    Document   : login
+    Created on : Jul 31, 2014, 1:47:45 AM
+    Author     : iwansyahkun
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+	width:100%;
+    background-color: #33ADD6;
+    font-family: 'Trebuchet MS', sans-serif, arial;
+    font-weight: normal;
+}
+.reg{
+    float:left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+fieldset{
+    font-size: large;
+    color:white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+}
+input{
+    padding:5px 10px 5px 10px;
+    font-size: large;
+}
+.log{
+    float:right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.footer{
+    clear:both;
+    margin-left: 30px;
+    color:white;
+}
+

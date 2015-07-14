@@ -1,0 +1,8 @@
+########## how to install ################
+
+1. extract and copy folder projectsms to htdocs
+2. import database on folder sql
+3. open browser and type url localhost/projectsms
+4. login and go to setting
+
+more configuration on user_manual_developer
